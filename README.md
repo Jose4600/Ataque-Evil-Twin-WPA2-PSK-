@@ -28,4 +28,9 @@ Para verificar que la tarjeta soporta modo AP, ejecutar:
 <img width="1024" height="317" alt="image" src="https://github.com/user-attachments/assets/77918a12-475c-477d-9383-a8330ccaba2b" />
 
 
+### Instalación de Airgeddon:
+![Bash](https://img.shields.io/badge/bash-5.x-007ACC?style=flat-square) ![Category](https://img.shields.io/badge/category-Pentesting-E05D44?style=flat-square) ![Attack](https://img.shields.io/badge/attack-Evil_Twin-8A2BE2?style=flat-square)
 
+```bash
+git clone https://github.com/v1s1t0r1sh3r3/airgeddon
+```
