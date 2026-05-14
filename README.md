@@ -75,16 +75,21 @@ Los pasos a seguir despues de esto, seran entrar dentro de la carpeta que tengam
 
 <img width="1024" height="579" alt="image" src="https://github.com/user-attachments/assets/193aa2ce-8fe9-4ddf-825b-d2362d8a1c7a" />
 
+
 Ahora ejecutamos Airgeddon con `sudo bash airgeddon.sh`. La herramienta detecta automáticamente las interfaces de red disponibles. Seleccionamos nuestra interfaz WiFi (wlan0 o similar).
 
 
+
 <img width="1024" height="141" alt="image" src="https://github.com/user-attachments/assets/e1f7af9b-df70-41cf-9b10-efff5113066b" />
+
 
 Una vez tenemos seleccionada la antena la cual queremos usar para realizar el ataque, nos tocara configurar esta, por lo que lo primero que tendremos que hacer sera seleccionar que la queremos en modo monitor, que sera lo necesario para capturar el trafico WiFi. Una vez hemos realizado la puesta en modo monitor, nos dispondremos a seleccionar el ataque a realizar que en este caso por lo que le daremos a la opcion 7 que es Evil Twin.
 
 <img width="1024" height="366" alt="image" src="https://github.com/user-attachments/assets/ac236732-7f6a-48e6-884e-f891e5841358" />
 
+
 Una vez tenemos seleccionado que queremos el ataque de Evil Twin, este nos dara bastantes opciones para realizar el ataque, de las cuales nosotros seleccionaremos la ultima, la cual creara un portal cautivo y no hara sniffing.
+
 
 
 <img width="1024" height="341" alt="image" src="https://github.com/user-attachments/assets/23b1d209-0192-4acb-ba43-88e46208670a" />
@@ -93,7 +98,13 @@ Una vez hagamos esto nos saldra una pestaña nueva, Airgeddon lanza un escaneo d
 
 <img width="992" height="1024" alt="image" src="https://github.com/user-attachments/assets/5574e5c0-21a9-486c-b253-6551b02b6a91" />
 
+
+Ahora pondremos la opcion 2, que en este caso es "Ataque Deauth aireplay"
+
+
 <img width="1024" height="253" alt="image" src="https://github.com/user-attachments/assets/298f3bbb-806c-47b6-bb31-d5913cb41dfe" />
+
+Acto seguido a este tendremos que poner "n", "y", "n" y darle a ester para que se empieze a 
 
 <img width="1024" height="342" alt="image" src="https://github.com/user-attachments/assets/8f0891ae-ebc5-4974-8e18-9ac23c3b2318" />
 
