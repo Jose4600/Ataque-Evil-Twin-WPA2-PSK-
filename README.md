@@ -94,10 +94,25 @@ El ataque Evil Twin permite al atacante obtener la contraseña WPA2 de una red c
 
 <img width="1024" height="332" alt="image" src="https://github.com/user-attachments/assets/9f8640bd-1a63-49d9-94b7-e50bc86bb935" />
 
+## Modos de mitigación
 
+**802.11w (Management Frame Protection - MFP)**: Cifra los frames de gestión (incluidos los deauth), dificultando que el atacante desconecte a los clientes de la red legítima.
 
+**WIDS/WIPS (Wireless Intrusion Detection/Prevention System)**: Detecta la presencia de APs con el mismo SSID y alerta al administrador o bloquea activamente el AP falso.
 
+**Certificados en redes empresariales (WPA2-Enterprise / 802.1X)**: Elimina el factor PSK compartido; cada usuario se autentica individualmente con credenciales o certificados, lo que hace inviable el portal cautivo.
 
+**Formación y concienciación**: Instruir a los usuarios para que no introduzcan contraseñas WiFi en portales inesperados y que verifiquen el certificado SSL del portal si lo hay.
 
+## Conclusión
 
+El ataque Evil Twin demuestra que la mayor vulnerabilidad de una red WPA2-PSK no siempre es criptográfica, sino humana. Al combinar la suplantación técnica del AP con un portal cautivo creíble, el atacante puede obtener credenciales sin necesidad de fuerza bruta. La protección real requiere adoptar autenticación por certificados (WPA2-Enterprise), activar MFP/802.11w y disponer de un sistema de detección de intrusos inalámbrico.
+Resumen final:
+<div>
+  <ul>
+  <li>Invisibilidad: El AP falso es indistinguible del legítimo para el cliente promedio.
+  <li>Gravedad: Obtención de credenciales en texto claro sin fuerza bruta.
+  <li>Prevención: WPA2-Enterprise, 802.11w y concienciación del usuario son las contramedidas más efectivas.
+ </ul>
+</div>
 
