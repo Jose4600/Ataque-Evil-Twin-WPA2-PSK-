@@ -134,9 +134,19 @@ Una vez vemos esto, nos tendremos que ir a el movil que tenemos conectado a la r
 
 <img width="610" height="858" alt="image" src="https://github.com/user-attachments/assets/31c0bd38-81ce-49a1-bc89-52bb5bb83fca" />
 
+
+Ahora simularemos que somos un usuario que se esta intentado conectar de nuevo a la red de internet con nuestro movil, y introduciremos la contreseña de la red de CETI. Ahora, Airgeddon la valida en tiempo real contra el handshake capturado. Si la contraseña es incorrecta, el portal la rechaza y vuelve a pedirla. En el momento en que la contraseña es correcta, el ataque finaliza automáticamente y la clave aparece en texto claro en el terminal del atacante.
+
 <img width="812" height="457" alt="image" src="https://github.com/user-attachments/assets/97c0bf5c-8e58-41f4-902e-c59d410e4429" />
 
+
+Aqui podemos observer que en la pantalla de el KALI, se puede observar la contraseña en texto en plano, y que se nos ha creado a parte de esto un archivo en el cual se puede ver tambien la contraseña de esta red.
+
+
 <img width="1024" height="323" alt="image" src="https://github.com/user-attachments/assets/516b2e68-9c05-4f81-8fa8-83599490f0be" />
+
+
+Para acceder a el archivo lo que tendremos sera seguir la ruta que nos han indicado que en nuestro caso es "/root/evil_twin_captive_portal_password-CETI.txt", y aqui nos saldran los datos importantes de la red de la cual hemos capturado el ataque.
 
 <img width="1024" height="332" alt="image" src="https://github.com/user-attachments/assets/9f8640bd-1a63-49d9-94b7-e50bc86bb935" />
 
