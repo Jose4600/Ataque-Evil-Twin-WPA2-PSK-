@@ -50,3 +50,18 @@ Lo elegimos por tres razones principales:
 **Verificación automática de la contraseña**: A diferencia de otras herramientas, Airgeddon valida en tiempo real la contraseña que introduce la víctima en el portal cautivo contra el handshake WPA2 previamente capturado. Si la clave es incorrecta, el portal la rechaza y sigue pidiendo; si es correcta, el ataque se detiene y la muestra en texto claro. Esto elimina la necesidad de un proceso posterior de fuerza bruta.
 
 **Facilidad de uso en entorno de laboratorio**: Al ser un script interactivo con menús guiados, resulta ideal para un entorno educativo donde el objetivo es entender el flujo del ataque, no memorizar decenas de parámetros de línea de comandos.
+
+## Impacto de este tipo de ataque
+
+El ataque Evil Twin permite al atacante obtener la contraseña WPA2 de una red corporativa en texto claro, sin necesidad de realizar fuerza bruta offline. Una vez en posesión de la clave, puede conectarse a la red legítima, interceptar tráfico interno y escalar el acceso a otros sistemas. Dado que se apoya en ingeniería social (el portal cautivo), resulta efectivo incluso contra contraseñas robustas que serían inviables de crackear por diccionario.
+
+## Condiciones necesarias para que el ataque pueda suceder
+
+<div>
+  <ul>
+  <li>Proximidad física a la red objetivo (cobertura WiFi).
+  <li>La tarjeta WiFi del atacante debe soportar modo AP (Master).
+  <li>Existencia de al menos un cliente conectado a la red legítima (para capturar el handshake y para enviarlo al AP falso).
+  <li>La víctima debe introducir la contraseña en el portal cautivo (componente de ingeniería social).
+  </ul>
+</div>
