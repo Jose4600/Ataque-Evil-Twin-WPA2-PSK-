@@ -30,6 +30,8 @@ Para verificar que la tarjeta soporta modo AP, ejecutar:
 
 ### Instalación de Airgeddon:
 ![Bash](https://img.shields.io/badge/bash-5.x-007ACC?style=flat-square) ![Category](https://img.shields.io/badge/category-Pentesting-E05D44?style=flat-square) ![Attack](https://img.shields.io/badge/attack-Evil_Twin-8A2BE2?style=flat-square)
+![OS](https://img.shields.io/badge/OS-Kali_Linux-557C94?style=flat-square&logo=kali-linux) ![Tool](https://img.shields.io/badge/herramienta-Airgeddon-FF3333?style=flat-square) ![Category](https://img.shields.io/badge/categoría-Auditoría_Wireless-E05D44?style=flat-square)
+![Status](https://img.shields.io/badge/status-PoC_Completada-success) ![Framework](https://img.shields.io/badge/framework-Airgeddon-blue) ![Objetivo](https://img.shields.io/badge/target-Redes_Inalámbricas-critical)
 
 ```bash
 git clone https://github.com/v1s1t0r1sh3r3/airgeddon
