@@ -104,9 +104,11 @@ Ahora pondremos la opcion 2, que en este caso es "Ataque Deauth aireplay"
 
 <img width="1024" height="253" alt="image" src="https://github.com/user-attachments/assets/298f3bbb-806c-47b6-bb31-d5913cb41dfe" />
 
-Acto seguido a este tendremos que poner "n", "y", "n" y darle a ester para que se empieze a 
+Acto seguido a este tendremos que poner "n", "y", "n" y darle a enter para que se empieze el ataque:
 
 <img width="1024" height="342" alt="image" src="https://github.com/user-attachments/assets/8f0891ae-ebc5-4974-8e18-9ac23c3b2318" />
+
+Una vez se ha finalizado el ataque se vera algo parecido a la siguiente imagen, donde se puede ver que se ha capturado el handshake, junto a el BSSID, canal y ESSID.
 
 <img width="1024" height="294" alt="image" src="https://github.com/user-attachments/assets/8f093e4f-372d-40c4-a7aa-0d9e5989525d" />
 
