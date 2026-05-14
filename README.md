@@ -17,8 +17,13 @@ https://www.youtube.com/watch?v=Ws9b0tWcVF4 > Configuración de tarjeta WiFi Alf
 
 ### Equipos y herramientas utilizados:
 
-Máquina atacante: Kali Linux con tarjeta Alfa Wireless USB AWUS036ACH (o similar que soporte modo AP/Master).
+**Máquina atacante**: Kali Linux con tarjeta Alfa Wireless USB AWUS036ACH (o similar que soporte modo AP/Master).
 
-Red objetivo: Red WiFi con cifrado WPA2-PSK en mi caso lo realizaremos sobre la red llamada CETI.
+**Red objetivo**: Red WiFi con cifrado WPA2-PSK en mi caso lo realizaremos sobre la red llamada CETI.
 
-Herramienta principal: Airgeddon
+**Herramienta principal**: Airgeddon
+
+Para verificar que la tarjeta soporta modo AP, ejecutar:
+
+<img width="562" height="174" alt="image" src="https://github.com/user-attachments/assets/558defdc-f30f-4ef0-95f3-c65b6cc23498" />
+
