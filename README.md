@@ -68,3 +68,36 @@ El ataque Evil Twin permite al atacante obtener la contraseña WPA2 de una red c
 
 ## Ataque en entorno controlado
 ###  Paso a paso del ataque
+
+
+<img width="1024" height="579" alt="image" src="https://github.com/user-attachments/assets/193aa2ce-8fe9-4ddf-825b-d2362d8a1c7a" />
+
+<img width="1024" height="141" alt="image" src="https://github.com/user-attachments/assets/e1f7af9b-df70-41cf-9b10-efff5113066b" />
+
+<img width="1024" height="366" alt="image" src="https://github.com/user-attachments/assets/ac236732-7f6a-48e6-884e-f891e5841358" />
+
+<img width="1024" height="341" alt="image" src="https://github.com/user-attachments/assets/23b1d209-0192-4acb-ba43-88e46208670a" />
+
+<img width="992" height="1024" alt="image" src="https://github.com/user-attachments/assets/5574e5c0-21a9-486c-b253-6551b02b6a91" />
+
+<img width="1024" height="253" alt="image" src="https://github.com/user-attachments/assets/298f3bbb-806c-47b6-bb31-d5913cb41dfe" />
+
+<img width="1024" height="342" alt="image" src="https://github.com/user-attachments/assets/8f0891ae-ebc5-4974-8e18-9ac23c3b2318" />
+
+<img width="1024" height="294" alt="image" src="https://github.com/user-attachments/assets/8f093e4f-372d-40c4-a7aa-0d9e5989525d" />
+
+<img width="1024" height="431" alt="image" src="https://github.com/user-attachments/assets/1a35ffd1-fed9-41e2-add5-f5d8b1ef454b" />
+
+<img width="1919" height="894" alt="Captura de pantalla 2026-05-14 191047" src="https://github.com/user-attachments/assets/2246fc16-15e8-421e-95cf-9f2c90ec0763" />
+
+<img width="1024" height="323" alt="image" src="https://github.com/user-attachments/assets/516b2e68-9c05-4f81-8fa8-83599490f0be" />
+
+<img width="1024" height="332" alt="image" src="https://github.com/user-attachments/assets/9f8640bd-1a63-49d9-94b7-e50bc86bb935" />
+
+
+
+
+
+
+
+
