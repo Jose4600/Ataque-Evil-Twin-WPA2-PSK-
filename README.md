@@ -69,6 +69,7 @@ El ataque Evil Twin permite al atacante obtener la contraseña WPA2 de una red c
 ## Ataque en entorno controlado
 ###  Paso a paso del ataque
 
+Antes de iniciar, comprobamos que nuestra tarjeta Alfa es compatible con el modo AP ejecutando iw list. En la salida debemos verificar que aparece AP dentro de los modos de interfaz soportados. Sin esto, el ataque no es posible
 
 <img width="1024" height="579" alt="image" src="https://github.com/user-attachments/assets/193aa2ce-8fe9-4ddf-825b-d2362d8a1c7a" />
 
