@@ -25,5 +25,6 @@ https://www.youtube.com/watch?v=Ws9b0tWcVF4 > Configuración de tarjeta WiFi Alf
 
 Para verificar que la tarjeta soporta modo AP, ejecutar:
 
-<img width="562" height="174" alt="image" src="https://github.com/user-attachments/assets/558defdc-f30f-4ef0-95f3-c65b6cc23498" />
+<img width="562" height="174" alt="Captura de pantalla 2026-05-14 162405" src="https://github.com/user-attachments/assets/ee0557c2-dc5c-43a8-a7dd-2a2117604f5f" />
+
 
