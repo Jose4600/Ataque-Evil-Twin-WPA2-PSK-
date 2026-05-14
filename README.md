@@ -92,7 +92,7 @@ El ataque Evil Twin permite al atacante obtener la contraseña WPA2 de una red c
 
 <img width="739" height="1600" alt="WhatsApp Image 2026-05-14 at 19 27 26" src="https://github.com/user-attachments/assets/0f2e81e2-5cdf-4235-8bd1-208e7fc3c00d" />
 
-<img width="739" height="1600" alt="WhatsApp Image 2026-05-14 at 19 27 32" src="https://github.com/user-attachments/assets/79b49247-e23c-4cd4-88ff-83a72b467897" />
+<img width="812" height="457" alt="image" src="https://github.com/user-attachments/assets/97c0bf5c-8e58-41f4-902e-c59d410e4429" />
 
 <img width="1024" height="323" alt="image" src="https://github.com/user-attachments/assets/516b2e68-9c05-4f81-8fa8-83599490f0be" />
 
