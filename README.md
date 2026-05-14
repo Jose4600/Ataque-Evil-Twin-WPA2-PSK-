@@ -104,17 +104,33 @@ Ahora pondremos la opcion 2, que en este caso es "Ataque Deauth aireplay"
 
 <img width="1024" height="253" alt="image" src="https://github.com/user-attachments/assets/298f3bbb-806c-47b6-bb31-d5913cb41dfe" />
 
+
 Acto seguido a este tendremos que poner "n", "y", "n" y darle a enter para que se empieze el ataque:
+
 
 <img width="1024" height="342" alt="image" src="https://github.com/user-attachments/assets/8f0891ae-ebc5-4974-8e18-9ac23c3b2318" />
 
+
 Una vez se ha finalizado el ataque se vera algo parecido a la siguiente imagen, donde se puede ver que se ha capturado el handshake, junto a el BSSID, canal y ESSID.
+
 
 <img width="1024" height="294" alt="image" src="https://github.com/user-attachments/assets/8f093e4f-372d-40c4-a7aa-0d9e5989525d" />
 
+
+Ahora le daremos una vez a ENTER, y nos pasara a la siguiente pagina en donde tendremos que dereminar en que idioma queremos que se nos cree el portal cautivo que vamos a usar para que ell usuario introduzca las credenciales de la red WiFi.
+
+
 <img width="1024" height="431" alt="image" src="https://github.com/user-attachments/assets/1a35ffd1-fed9-41e2-add5-f5d8b1ef454b" />
 
+
+En este momentos se nos llenara la pantalla de pestañas, las cuales tendremos que dejar que actuen, ya que son el verdadero ataque que vamos a realizar, y se vera algo como lo siguiente:
+
+
 <img width="1919" height="894" alt="Captura de pantalla 2026-05-14 191047" src="https://github.com/user-attachments/assets/2246fc16-15e8-421e-95cf-9f2c90ec0763" />
+
+
+Una vez vemos esto, nos tendremos que ir a el movil que tenemos conectado a la red, y veremos que este se desconecta de la red de CETI y se vuelve a conectar, ya que Airgeddon levanta automáticamente el AP gemelo con el mismo SSID y canal que la red legítima, arranca dnsmasq como servidor DHCP/DNS y lighttpd para servir el portal cautivo. Simultáneamente, lanza desautenticaciones continuas contra la red real para forzar a los clientes a conectarse al AP falso.
+
 
 <img width="610" height="858" alt="image" src="https://github.com/user-attachments/assets/31c0bd38-81ce-49a1-bc89-52bb5bb83fca" />
 
