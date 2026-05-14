@@ -36,3 +36,17 @@ Para verificar que la tarjeta soporta modo AP, ejecutar:
 ```bash
 git clone https://github.com/v1s1t0r1sh3r3/airgeddon
 ```
+
+### ¿Que es Airgeddon?
+Airgeddon es un framework de auditoría de redes WiFi de código abierto desarrollado en Bash. Funciona como una herramienta "todo en uno" que integra y automatiza múltiples utilidades ya existentes (como aircrack-ng, hostapd, dnsmasq, lighttpd, etc.) en un único menú interactivo, simplificando procesos que de otro modo requerirían ejecutar y coordinar varios comandos de forma manual.
+Entre sus funcionalidades principales están la captura de handshakes WPA/WPA2, ataques de desautenticación, auditoría de redes WEP, y varios tipos de ataques Evil Twin con portal cautivo.
+
+### ¿Por qué lo usamos en esta práctica concretamente?
+
+Lo elegimos por tres razones principales:
+
+**Integración completa del ataque Evil Twin**: Airgeddon automatiza todas las fases del ataque (modo monitor, escaneo, captura de handshake, lanzamiento del AP falso, desautenticaciones continuas y portal cautivo) desde un único entorno, sin tener que coordinar herramientas por separado.
+
+**Verificación automática de la contraseña**: A diferencia de otras herramientas, Airgeddon valida en tiempo real la contraseña que introduce la víctima en el portal cautivo contra el handshake WPA2 previamente capturado. Si la clave es incorrecta, el portal la rechaza y sigue pidiendo; si es correcta, el ataque se detiene y la muestra en texto claro. Esto elimina la necesidad de un proceso posterior de fuerza bruta.
+
+**Facilidad de uso en entorno de laboratorio**: Al ser un script interactivo con menús guiados, resulta ideal para un entorno educativo donde el objetivo es entender el flujo del ataque, no memorizar decenas de parámetros de línea de comandos.
