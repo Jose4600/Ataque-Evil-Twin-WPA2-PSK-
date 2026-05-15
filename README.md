@@ -69,6 +69,8 @@ El ataque Evil Twin permite al atacante obtener la contraseña WPA2 de una red c
 ## Ataque en entorno controlado
 ###  Paso a paso del ataque
 
+# Video del ataque https://drive.google.com/file/d/1SmKRwNb1BmkwsnzuEU4D65iikKqbjmv0/view?usp=drive_link
+
 Antes de iniciar, comprobamos que nuestra tarjeta Alfa es compatible con el modo AP ejecutando iw list. En la salida debemos verificar que aparece AP dentro de los modos de interfaz soportados. Sin esto, el ataque no es posible.
 Los pasos a seguir despues de esto, seran entrar dentro de la carpeta que tengamos Airgeddon mediante el uso del comando `cd` y posteriormente el uso del comando `sudo airmon-ng check kill` para matar todos los procesos que la anterna tengo activos.
 
